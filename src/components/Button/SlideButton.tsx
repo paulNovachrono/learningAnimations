@@ -3,8 +3,8 @@ import { cn } from "../../lib/utils"
 export default function SlideButton(){
     return<button className="relative rounded-[9.5px] border-2 border-white/20 flex items-center gap-2 text-lg pl-10 py-0.5 pr-3 tracking-tight group overflow-hidden">
         <Box/>
-        <div className="bg-zinc-800 absolute inset-0 [clip-path:inset(0_100%_0_0)] group-hover:[clip-path:inset(0_0_0_0)] transition-[clip-path] duration-600 ease-in "/>
-        <span className="inline-block group-hover:-translate-x-8 transition-all ease-in duration-500">Chat with Ishan</span>
+        <div className="bg-white absolute inset-0 [clip-path:inset(0_100%_0_0)] group-hover:[clip-path:inset(0_0_0_0)] transition-[clip-path] duration-600 ease-in "/>
+        <span className="inline-block group-hover:-translate-x-8 transition-all ease-in duration-500 group-hover:text-zinc-800 font-medium">Chat with Ishan</span>
     </button>
 }
 
